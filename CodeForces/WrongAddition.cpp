@@ -36,15 +36,14 @@ void solve(){
     if(j>-1){
         std::cout<<-1<<"\n";
         return;
-    }else{
-        int cnt=0;
-        for(char c:str3){
-            if(c=='0') cnt++;
-            else break;
-        }
-        str3=str3.substr(cnt);
-        std::cout<<str3<<"\n";
     }
+    int cnt=0;
+    for(char c:str3){
+        if(c=='0') cnt++;
+        else break;
+    }
+    str3=str3.substr(cnt);
+    std::cout<<str3<<"\n";
 }
 
 int main(){
