@@ -6,7 +6,7 @@ import java.lang.Exception;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Main{
+public class PaprikaAndPermutation{
     static class FastReader{
         BufferedReader br;
         StringTokenizer st;
