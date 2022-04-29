@@ -6,7 +6,7 @@ import java.lang.Exception;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Main{
+public class ArrayAndOperations{
     static class FastReader{
         BufferedReader br;
         StringTokenizer st;
