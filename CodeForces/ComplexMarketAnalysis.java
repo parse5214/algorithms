@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 import java.lang.Exception;
 import java.util.ArrayList;
 
-public class Main{
+public class ComplexMarketAnalysis{
     static class FastReader{
         BufferedReader br;
         StringTokenizer st;
