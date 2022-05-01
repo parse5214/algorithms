@@ -53,8 +53,8 @@ void solve(){
             if(mem) vec.push_back(cnt);
         }else continue;
         int sz=vec.size();
-        for(int i=0;i<sz-1;i++){
-            sum+=static_cast<long long>(vec[i])*(vec[i+1]+1)+vec[i+1];
+        for(int k=0;k<sz-1;k++){
+            sum+=static_cast<long long>(vec[k])*(vec[k+1]+1)+vec[k+1];
         }
         vec.clear();
     }
