@@ -35,7 +35,7 @@ void solve(){
     std::cin>>a;
     std::vector<long long> diff(n);
     for(int i=0;i<n;i++){
-        if(i==n-1) diff[i]=2e18;
+        if(i==n-1) diff[i]=h;
         else diff[i]=a[i+1]-a[i];
     }
     long long k=binarySearch(diff,h);
