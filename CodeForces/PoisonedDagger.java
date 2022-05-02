@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.lang.Exception;
 
-public class Main{
+public class PoissonedDagger{
     static class FastReader{
         BufferedReader br;
         StringTokenizer st;
